@@ -47,4 +47,4 @@ INSERT INTO inventario_pirata (id, nombre_sucio, categoria, precio_finca, priori
 
 -- en proceso, mientras lo termino en mi local
 SELECT precio_referencia 
-     FROM mercado_negro m
+     FROM mercado_negro modificado
