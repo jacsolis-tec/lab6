@@ -44,3 +44,7 @@ INSERT INTO inventario_pirata (id, nombre_sucio, categoria, precio_finca, priori
 (4, '---TRUFA_Oscura---', 'Chocolates', 40.00, 5, '2026-01-10', 5),
 (5, 'Caramelo_Salado!!', 'Caramelos', 18.00, 7, '2025-12-01', 2), -- VENCIDO
 (6, 'Gomita_Osa', 'Gomitas', 25.00, 11, '2026-04-10', 8);
+
+
+SELECT precio_referencia 
+     FROM mercado_negro m
